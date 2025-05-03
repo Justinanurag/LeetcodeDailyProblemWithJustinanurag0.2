@@ -1,10 +1,13 @@
+//problem number=1007
+//Date:03/05/2025
+
 #include<iostream>
 #include<math.h>
 #include<vector>
 #include <climits>
 using namespace std;
 int find(vector<int> tops,vector<int> bottoms,int val){
-    //Ceck for tops and bottoms
+    //Check for tops and bottoms
     int n=tops.size();
     int swapTop=0;
     int swapBottom=0;
